@@ -615,7 +615,9 @@
       "parsing",
       "prelude",
       "psci-support",
-      "spec"
+      "run",
+      "spec",
+      "sunde"
     ],
     "repo": "https://github.com/nsaunders/purescript-dotenv.git",
     "version": "v0.4.1"
