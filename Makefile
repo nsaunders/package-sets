@@ -2,7 +2,6 @@ all: format generate
 
 format:
 	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
-	@dhall freeze --all --inplace src/packages.dhall
 	@echo formatted dhall files
 
 generate: SHELL:=/usr/bin/env bash
